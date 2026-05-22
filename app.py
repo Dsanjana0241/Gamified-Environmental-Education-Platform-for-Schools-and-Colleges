@@ -18,10 +18,7 @@ CORS(app)
 # Linux/Mac: export SMTP_EMAIL=your-email@gmail.com
 # Linux/Mac: export SMTP_PASSWORD=your-app-password
 
-SMTP_SERVER = "smtp.gmail.com"
-SMTP_PORT = 587
-SMTP_EMAIL = os.environ.get('SMTP_EMAIL', 'd900327@gmail.com')
-SMTP_PASSWORD = os.environ.get('SMTP_PASSWORD', 'rahl klcc hysr gbsg')
+
 
 # In-memory storage (use database in production)
 users_db = {}
